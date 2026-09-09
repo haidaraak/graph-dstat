@@ -1,0 +1,11 @@
+{
+  "name": "graph-dstat-tools",
+  "private": true,
+  "description": "Headless verification harness for l7-firewall-graph.html",
+  "scripts": {
+    "verify": "node verify-l7-graph.js ../l7-firewall-graph.html"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.0"
+  }
+}
